@@ -1,0 +1,32 @@
+h1+p{color:darkgreen;}
+h2~p{font-weight:bold;
+  font-style:italic;}
+div[id]{background-color: aquamarine;
+width: 400px;}
+div[id="sec"]{color:orangered;
+    opacity: 0.7;
+background: linear-gradient(10deg,grey,violet ,brown 80% );}
+#sec:hover{opacity:1.0;}
+#sec :nth-child(2n+1){color: darkslategrey;}
+p:first-letter{font-size:30px;}
+#img{height:200px;
+    margin:20px;
+    padding: 30px;
+    opacity: 0.7;
+background: linear-gradient(rgba(255,0,0,1.0),rgba(0,0,255,0.8))}
+#img:hover{opacity:1.0;}
+#para{background:  linear-gradient(red,pink)}
+#float{color:whitesmoke;
+        text-align: center;
+         width:350px;
+          padding:20px;
+           margin:0;
+            font-size: 60px;
+             font-weight: bolder;
+            background-color: rgb(0,126,253);
+         text-shadow:4px 3px 5px rgb(200,200,200),8px 6px 10px rgb(200,200,200) ; 
+           box-shadow: inset 0px 0px 55px white;
+    border: 2px solid rgb(36,146,255);
+        }
+
+

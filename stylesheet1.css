@@ -1,6 +1,8 @@
 body {background-image:url(bg.jpg);
     font-family: georgia;
     font-weight: bold;
+    width:1330px;
+    
     } 
 h1{font-weight: bolder;
     font-size: 40px;
@@ -55,25 +57,27 @@ margin: 10px 20px;
                font-weight:bolder;
              }
 
-#form {
-    background-color:rgb(54,129,106);
+#form {background-color:rgb(54,129,106);
        color:rgb(171,227,231);
-     display:table;
-       height:400px;
-       width:300px;
-    font-family: arial;
-    font-size:25 px;
-    font-weight:bold;
-    border:2px solid rgb(0,0,45) ;
+        display:table;
+         height:400px;
+         width:300px;
+        font-family: arial;
+       font-size:25 px;
+      font-weight:bold;
+     border:2px solid rgb(0,0,45) ;
     border-bottom-right-radius:30px;
-    border-bottom-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    padding:15px;
-    margin:10px; 
-    line-height:30px;
-    float:right;
-   }
+     border-bottom-left-radius: 30px;
+      border-top-right-radius: 30px;
+       border-top-left-radius: 30px;
+        padding:15px;
+         margin:10px; 
+        line-height:30px;
+       float:right;
+      position: relative;
+     top:5px;
+    left:10px;
+     }
 .row{display:table-row;}
 .row label{display:table-cell;
 }
@@ -116,7 +120,10 @@ margin: 10px 20px;
                text-decoration: underline;
                font-weight:bolder;
              }
+ p:first-letter{font-size:30px; 
+                }
 
+              
 
   
 
