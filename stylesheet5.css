@@ -1,0 +1,17 @@
+body{color:red;}
+.slider{width:520px;
+       background-color:#E24E42 ; padding:30px;
+        }
+.slider input{width:500px;
+             height:6px;
+             appearance:none;
+             -webkit-appearance:none;
+             border:2px solid darkred;
+              outline-color:green;box-shadow: 0 0 5px black,inset 0 0 6px black}
+.slider input::-webkit-slider-thumb{appearance:none;
+             -webkit-appearance:none;width:20px;
+height:40px;
+background-color: hotpink;
+border:2px solid #ddd;
+border-radius:50px;
+box-shadow: 0 0 5px black,inset 0 0 6px black}

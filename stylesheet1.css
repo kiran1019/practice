@@ -27,7 +27,6 @@ margin: 10px 20px;
       border: 2px solid rgb(39,44,41);
       padding:0;
       margin:0; 
-      height:30px;
       }
 
 .hori ul{list-style: none;
@@ -35,20 +34,22 @@ margin: 10px 20px;
         padding:0;
          margin:0;
         }
-.hori li{display: inline;
-        line-height:30px; 
+.hori ul li{display: inline;
+        line-height:30px;
         font-family:verdana,arial; 
         margin-right:5px; 
        }
-.hori a {color:floralwhite;
+.hori ul li a {color:floralwhite;
+        padding:3px 10px;
         font-weight:bold ;
         text-decoration: none;
         border-left:2px solid rgb(39,44,41);
         border-right:2px solid rgb(39,44,41);
-        padding:0 10px;
+        padding:6px 10px;
         margin:0;
      }
 .hori a:hover {background-color:snow;                    color:rgb(0,0,79);
+               padding:6px 10px;
               text-decoration: underline;
               font-weight:bolder;
              }
