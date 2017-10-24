@@ -10,11 +10,17 @@ h1{font-weight: bolder;
    text-decoration-line: underline;}
 h2 {color:rgb(221,0,0);
 }
-#parag{margin:50px 20px 250px 20px;
+#parag
+{
+    margin:50px 20px 250px 20px;
     color:rgb(181,7,160); 
-       } 
-.phead{text-decoration: underline}
-img{float: left;
+} 
+.phead{
+    text-decoration: underline
+}
+
+img
+{float: left;
 margin: 10px 20px;
 }
 
